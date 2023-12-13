@@ -2,84 +2,19 @@
 aiGeneratedQuestions = [
   {
     question: "Full form of Html?",
-    option1: "Hello to my world",
-    option2: "Hey text my language",
-    option3: "Hyper text Markup language",
-    option4: "Hyper text Makeup language",
-    ans: "Hyper text Markup language",
+    responses: ["Hello to my world", "Hey text my language","Hyper text Markup language","Hyper text Makeup language"],
+    correct: "Hyper text Markup language"
   },
   {
     question: "why do we use ReactJs?",
-    option1: "For building UI's",
-    option2: "For back-end",
-    option3: "For data-bases",
-    option4: "It's nothing.",
-    ans: "For building UI's",
+    responses: ["For building UI's","For back-end","For data-bases","It's nothing."],
+    correct: "For building UI's"
   },
   {
     question: "Which tag is incorrect?",
-    option1: "<kbd>",
-    option2: "<html>",
-    option3: "<abbr>",
-    option4: "All are correct",
-    ans: "All are correct",
-  },
-  {
-    question: "which is wrong here?",
-    option1: "var x = 10;",
-    option2: "x = 10",
-    option3: "let x = 10;",
-    option4: "const x = 10;",
-    ans: "x = 10",
-  },
-  {
-    question: "What is git?",
-    option1: "version control system",
-    option2: "A ugly thing",
-    option3: "Distributed version control system",
-    option4: "A useful stuff",
-    ans: "Distributed version control system",
-  },
-  {
-    question: "Which is correct?",
-    option1: "<html><body>...</body></html>",
-    option2: "<body><html>...</html></body>",
-    option3: "<script><head>...</head></script>",
-    option4: "All are correct.",
-    ans: "<html><body>...</body></html>",
-  },
-  {
-    question: "Which is unchangeable",
-    option1: "var x = 10;",
-    option2: "let x = 10;",
-    option3: "const x = 10;",
-    option4: "All are unchangeable.",
-    ans: "const x = 10;",
-  },
-  {
-    question: "How many kinds of loops are here in js?",
-    option1: "2",
-    option2: "6",
-    option3: "1",
-    option4: "5",
-    ans: "5",
-  },
-  {
-    question: "What does an array called in js?",
-    option1: "Array",
-    option2: "Object",
-    option3: "String",
-    option4: "Boolean",
-    ans: "Object",
-  },
-  {
-    question: "Which is the best js Library?",
-    option1: "ReactJs",
-    option2: "JQuery",
-    option3: "Angular",
-    option4: "Vue",
-    ans: "ReactJs",
-  },
+    responses: ["<kbd>","<html>","<abbr>","All are correct"],
+    correct: "All are correct"
+  }
 ];
 
 // getting referrence
@@ -94,9 +29,9 @@ const usersAnswer = document.querySelectorAll(".answer");
 const scoreArea = document.querySelector("#ShowScore");
 
 
-aiGeneratedQuestions = document.currentScript.getAttribute("questions")
-aiGeneratedQuestions = aiGeneratedQuestions.replaceAll("\'", "\"")
-aiGeneratedQuestions = JSON.parse(aiGeneratedQuestions)
+// aiGeneratedQuestions = document.currentScript.getAttribute("questions")
+// aiGeneratedQuestions = aiGeneratedQuestions.replaceAll("\'", "\"")
+// aiGeneratedQuestions = JSON.parse(aiGeneratedQuestions)
 
 console.log(aiGeneratedQuestions)
 

@@ -16,8 +16,11 @@ def home():
 @app.route('/questions')
 def questions():
     args = request.args
-    q_list = requests.get("https://quiz-gen-1-4riej3ojca-et.a.run.app", params={'topic': args['topic'], 'diff': args['diff'], 'num_q': args['num_q']}).content
-    return render_template('quiz.html', questions=json.loads(q_list))
+
+    # q_list = requests.get("https://quiz-gen-1-4riej3ojca-et.a.run.app", params={'topic': args['topic'], 'diff': args['diff'], 'num_q': args['num_q']}).content
+    # return render_template('quiz.html', questions=json.loads(q_list))
+    
+    return render_template('quiz.html')
 
 # start the server with the 'run()' method
 if __name__ == '__main__':
