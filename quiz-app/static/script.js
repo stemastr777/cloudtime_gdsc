@@ -6,7 +6,7 @@ aiGeneratedQuestions = [
     option2: "Hey text my language",
     option3: "Hyper text Markup language",
     option4: "Hyper text Makeup language",
-    ans: "answer3",
+    ans: "Hyper text Markup language",
   },
   {
     question: "why do we use ReactJs?",
@@ -14,7 +14,7 @@ aiGeneratedQuestions = [
     option2: "For back-end",
     option3: "For data-bases",
     option4: "It's nothing.",
-    ans: "answer1",
+    ans: "For building UI's",
   },
   {
     question: "Which tag is incorrect?",
@@ -22,7 +22,7 @@ aiGeneratedQuestions = [
     option2: "<html>",
     option3: "<abbr>",
     option4: "All are correct",
-    ans: "answer4",
+    ans: "All are correct",
   },
   {
     question: "which is wrong here?",
@@ -30,7 +30,7 @@ aiGeneratedQuestions = [
     option2: "x = 10",
     option3: "let x = 10;",
     option4: "const x = 10;",
-    ans: "answer2",
+    ans: "x = 10",
   },
   {
     question: "What is git?",
@@ -38,7 +38,7 @@ aiGeneratedQuestions = [
     option2: "A ugly thing",
     option3: "Distributed version control system",
     option4: "A useful stuff",
-    ans: "answer3",
+    ans: "Distributed version control system",
   },
   {
     question: "Which is correct?",
@@ -46,7 +46,7 @@ aiGeneratedQuestions = [
     option2: "<body><html>...</html></body>",
     option3: "<script><head>...</head></script>",
     option4: "All are correct.",
-    ans: "answer1",
+    ans: "<html><body>...</body></html>",
   },
   {
     question: "Which is unchangeable",
@@ -54,7 +54,7 @@ aiGeneratedQuestions = [
     option2: "let x = 10;",
     option3: "const x = 10;",
     option4: "All are unchangeable.",
-    ans: "answer3",
+    ans: "const x = 10;",
   },
   {
     question: "How many kinds of loops are here in js?",
@@ -62,7 +62,7 @@ aiGeneratedQuestions = [
     option2: "6",
     option3: "1",
     option4: "5",
-    ans: "answer4",
+    ans: "5",
   },
   {
     question: "What does an array called in js?",
@@ -70,7 +70,7 @@ aiGeneratedQuestions = [
     option2: "Object",
     option3: "String",
     option4: "Boolean",
-    ans: "answer2",
+    ans: "Object",
   },
   {
     question: "Which is the best js Library?",
@@ -78,7 +78,7 @@ aiGeneratedQuestions = [
     option2: "JQuery",
     option3: "Angular",
     option4: "Vue",
-    ans: "answer1",
+    ans: "ReactJs",
   },
 ];
 
