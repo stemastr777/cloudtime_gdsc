@@ -1,17 +1,17 @@
-Cloud Time GDSC Udinus
+# Cloud Time GDSC Udinus
 
 
-Demo 1 - Simple Quiz Website App with Cloud Run and Vertex AI
+*Demo 1 - Simple Quiz Website App with Cloud Run and Vertex AI*
 
 1. Pada quiz-generator/main.py line 46:
-    -> Jangan lupa mengganti "<YOUR PROJECT ID>" dengan project id masing-masing
+    -> Jangan lupa memasukkan project id masing-masing pada tempat yang disediakan
 
         Contoh:
         misal mempunyai project dengan id "my-project-id-234", maka:
 
         vertexai.init(project="<YOUR PROJECT ID>", location="us-central1")  #<-CHANGED
 
-        berubah menjadi:
+        menjadi:
 
         vertexai.init(project="my-project-id-234", location="us-central1")  #<-CHANGED
 
