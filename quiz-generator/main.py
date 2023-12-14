@@ -43,7 +43,7 @@ if not PORT:
 
 
 # Initialize Vertex AI access.
-vertexai.init(project="ai-quiz-gen", location="us-central1")  #<-CHANGED
+vertexai.init(project="<YOUR PROJECT ID>", location="us-central1")  #<-CHANGED
 parameters = {                                                 #<-CHANGED
     "candidate_count": 1,                                      #<-CHANGED
     "max_output_tokens": 1024,                                 #<-CHANGED
